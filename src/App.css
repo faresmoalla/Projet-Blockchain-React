@@ -1,0 +1,287 @@
+/* Extreme Top bar */
+
+.box1{
+  padding: 8px 0px;
+  color: gray;
+}
+.dropdown1 {
+  border: none;
+  color: gray;
+}
+.box2 {
+  padding: 5px 0px;
+}
+.dropdown-top {
+  float: left;
+  display: flex;
+  height: 45px;
+  margin-right: -20px;
+  width: 150px;
+  border-radius: 30px;
+  padding-left: 20px;
+}
+
+.search-txt {
+  width: 70%;
+  height: 45px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.search-btn{
+  float: right;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background:#635555 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position :relative;
+  margin-left: -70px;
+  margin-right: 40px;
+}
+
+.mycart {
+  padding-left: 130px;
+}
+
+.navbar {
+  background-color: #392061;
+  height: 70px;
+  width: 100%;
+}
+
+.toggle {
+  color: #000000;
+  background-color: #000000;
+}
+
+.nav-dropdown {
+  background-color: #fff;
+  height: 70px;
+  padding-top: 15px;
+}
+
+.links {
+  padding-top: 15px;
+}
+
+.herosection {
+  padding: 100px 0px;
+  background-color: rgb(247, 247, 247);
+}
+
+.btn-blue {
+  background-color: #392061;
+  height: 50px;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  width: 150px;
+}
+
+.icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.title i {
+  font-size: 48px;
+  line-height: 1;
+  transition: all 0.3s ease-in-out;
+}
+.title {
+  text-decoration: none;
+}
+
+thead .thead {
+  background-color: #392061 !important;
+}
+
+.footer-heading{
+  color: #fff;
+}
+
+.search-txt-footer{
+  width: 80%;
+  height: 45px;
+  padding-left: 40px;
+  position: relative;
+  border-radius: 40px;
+}
+
+.search-btn-footer{
+  float: right;
+  width: 85px;
+  height: 45px;
+  border-radius: 45%;
+  background:#635555 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position :relative;
+  margin-left: -80px;
+  margin-right: 40px;
+}
+
+.footer {
+  padding : 20px 0px
+}
+
+@media screen and (width: 1024px){
+  .search-txt {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .dropdown-top {
+    width: 90px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .search-txt {
+    width: 62.5%;
+    padding-left: 20px;
+  }
+  .car {
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 540px){
+  .search-txt {
+    height: 38px;
+    width: 66%;
+  }
+  .search-btn{
+    margin-left: -40px;
+    height: 38px;
+    width: 38px;
+  }
+  .dropdown-top {
+    width: 130px;
+    margin-left: 0px;
+    padding-left: 0px;
+    height: 38px;
+  }
+  .mycart {
+    padding-left: 0px;
+    padding-top: 8px;
+  }
+
+  .navbar{
+    width: 100%;
+  }
+  .top-logo{
+    padding-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .search-txt {
+    height: 38px;
+    width: 66%;
+  }
+  .search-btn{
+    margin-left: -40px;
+    height: 38px;
+    width: 38px;
+  }
+  .dropdown-top {
+    width: 90px;
+    margin-left: 0px;
+    padding-left: 0px;
+    height: 38px;
+  }
+  .mycart {
+    padding-left: 0px;
+    padding-top: 8px;
+  }
+
+  .navbar{
+    width: 100%;
+  }
+  .top-logo{
+    padding-bottom: 8px;
+  }
+  .car {
+    height: 58%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .search-btn{
+    margin-left: -40px;
+    height: 38px;
+    width: 38px;
+  }
+  .dropdown-top {
+    width: 100px;
+    margin-left: 0px;
+    padding-left: 0px;
+    height: 38px;
+  }
+  .search-txt {
+    height: 38px;
+    width: 60%;
+  }
+  .mycart {
+    padding-left: 0px;
+    padding-top: 8px;
+  }
+
+  .navbar{
+    width: 100%;
+  }
+  .top-logo{
+    padding-bottom: 8px;
+  }
+  .car {
+    height: 58%;
+  }
+
+}
+
+@media screen and (max-width: 320px){
+  .search-txt {
+    height: 38px;
+    width: 60%;
+    padding-left: 20px;
+  }
+  .search-btn{
+    margin-left: -21px;
+  }
+  .car {
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 280px){
+  .dropdown-top {
+    width: 70px;
+    margin-left: 0px;
+    padding-left: 0px;
+    height: 38px;
+  }
+  .search-txt {
+    height: 38px;
+    width: 55%;
+    padding-left: 10px;
+  }
+  .search-btn{
+    margin-left: -30px;
+    height: 38px;
+    width: 38px;
+  }
+}
+
